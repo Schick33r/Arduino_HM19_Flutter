@@ -27,7 +27,7 @@ void loop() {
         /// WRITE AFTER READ
         delay(2000);
         ble.print( oldBuffer + " received and sent");
-        Serial.println("Message successfully sent to app"); // Print to Serial Monitor
+        Serial.println("Message successfully sent to app"); // PRINT TO SERIAL MONITOR
         /// END WRITE
       }
   
